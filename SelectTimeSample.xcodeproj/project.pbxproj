@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1493B95329A8DCCA0040BA71 /* SelectTimeWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493B95229A8DCCA0040BA71 /* SelectTimeWheelView.swift */; };
+		1493B95529A8E8220040BA71 /* SelectTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493B95429A8E8220040BA71 /* SelectTimeView.swift */; };
 		14B69E6029A8DA400059D1D6 /* SelectTimeSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B69E5F29A8DA400059D1D6 /* SelectTimeSampleApp.swift */; };
 		14B69E6229A8DA400059D1D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B69E6129A8DA400059D1D6 /* ContentView.swift */; };
 		14B69E6429A8DA410059D1D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B69E6329A8DA410059D1D6 /* Assets.xcassets */; };
 		14B69E6829A8DA410059D1D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B69E6729A8DA410059D1D6 /* Preview Assets.xcassets */; };
+		14B69E6F29A8DA5C0059D1D6 /* SelectTimeViewWithError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B69E6E29A8DA5C0059D1D6 /* SelectTimeViewWithError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1493B95229A8DCCA0040BA71 /* SelectTimeWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeWheelView.swift; sourceTree = "<group>"; };
+		1493B95429A8E8220040BA71 /* SelectTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeView.swift; sourceTree = "<group>"; };
 		14B69E5C29A8DA400059D1D6 /* SelectTimeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectTimeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B69E5F29A8DA400059D1D6 /* SelectTimeSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeSampleApp.swift; sourceTree = "<group>"; };
 		14B69E6129A8DA400059D1D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14B69E6329A8DA410059D1D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14B69E6529A8DA410059D1D6 /* SelectTimeSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SelectTimeSample.entitlements; sourceTree = "<group>"; };
 		14B69E6729A8DA410059D1D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14B69E6E29A8DA5C0059D1D6 /* SelectTimeViewWithError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewWithError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				14B69E5F29A8DA400059D1D6 /* SelectTimeSampleApp.swift */,
 				14B69E6129A8DA400059D1D6 /* ContentView.swift */,
+				1493B95429A8E8220040BA71 /* SelectTimeView.swift */,
+				14B69E6E29A8DA5C0059D1D6 /* SelectTimeViewWithError.swift */,
+				1493B95229A8DCCA0040BA71 /* SelectTimeWheelView.swift */,
 				14B69E6329A8DA410059D1D6 /* Assets.xcassets */,
 				14B69E6529A8DA410059D1D6 /* SelectTimeSample.entitlements */,
 				14B69E6629A8DA410059D1D6 /* Preview Content */,
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1493B95529A8E8220040BA71 /* SelectTimeView.swift in Sources */,
 				14B69E6229A8DA400059D1D6 /* ContentView.swift in Sources */,
+				14B69E6F29A8DA5C0059D1D6 /* SelectTimeViewWithError.swift in Sources */,
+				1493B95329A8DCCA0040BA71 /* SelectTimeWheelView.swift in Sources */,
 				14B69E6029A8DA400059D1D6 /* SelectTimeSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,15 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                NavigationLink{
+                    SelectTimeView()
+                } label: {
+                    Text("時間を選択（シンプル）")
+                }
+                NavigationLink{
+                    SelectTimeViewWithError()
+                } label: {
+                    Text("時間を選択（エラー付き）")
+                }
+            }
+            .navigationTitle("時間選択サンプル")
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .padding()
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
