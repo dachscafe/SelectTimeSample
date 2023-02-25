@@ -19,6 +19,7 @@
 /* Begin PBXFileReference section */
 		1493B95229A8DCCA0040BA71 /* SelectTimeWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeWheelView.swift; sourceTree = "<group>"; };
 		1493B95429A8E8220040BA71 /* SelectTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeView.swift; sourceTree = "<group>"; };
+		1493B95629A9C2FF0040BA71 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		14B69E5C29A8DA400059D1D6 /* SelectTimeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectTimeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B69E5F29A8DA400059D1D6 /* SelectTimeSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeSampleApp.swift; sourceTree = "<group>"; };
 		14B69E6129A8DA400059D1D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		14B69E5329A8DA400059D1D6 = {
 			isa = PBXGroup;
 			children = (
+				1493B95629A9C2FF0040BA71 /* README.md */,
 				14B69E5E29A8DA400059D1D6 /* SelectTimeSample */,
 				14B69E5D29A8DA400059D1D6 /* Products */,
 			);
